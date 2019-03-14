@@ -4,9 +4,11 @@
 ###### Simple job posting app for Coders
 
 ###### Features
+```
 > Add a job
 > View all jobs
 > Search for a job by technology type
+```
 
 ###### Technologies
 ```
