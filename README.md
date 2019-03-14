@@ -9,8 +9,10 @@
 > Search for a job by technology type
 
 ###### Technologies
+```
 > Node.js
 > Express.js
 > Postgres
 > Sequelize
 > Handlebars(Templating engine)
+```
