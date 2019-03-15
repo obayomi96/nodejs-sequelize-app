@@ -8,7 +8,10 @@ const db = require('./config/database');
 
 // Test DB
 db.authenticate()
-.then(() => console.log('Database connected...'))
+.then(() => {
+    const config = db.connectionmanager.config;
+    console.log('sequelize-heroku: Connected to '+config.host+' as '+config.username+'.');
+})
 .catch(err => console.log('Error:' + err))
 
 const app = express();

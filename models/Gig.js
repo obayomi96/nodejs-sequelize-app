@@ -1,4 +1,4 @@
-const Sequelize = require('sequelize');
+const Sequelize = require('sequelize-heroku').connect(require('sequelize'));
 const db = require('../config/database');
 
 const Gig = db.define('gig', {
